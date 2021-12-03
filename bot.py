@@ -33,13 +33,13 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @kamdev07 For more help-**")
+        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @mrpunisher52 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @kamdev07 or for more join @pdisk_Admins**")
+        "**please contact me on @mrpunisher52 or for more join @hornyworld22**")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
